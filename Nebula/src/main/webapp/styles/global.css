@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 sep 2025, 3:25:49 p.m.
+    Author     : Laboratorios
+*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+:root{
+    --bg-color-dark: #131200;
+    --text-color-dark: #EDF2F4;
+    --links-color-dark: #EFBDEB;
+    --links-color-hover: #8B91C7;
+    --nav-links: #8D3FD1;
+    --highlight: #EDF67D;
+}
+
+body, main, h3{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: var(--links-color-dark);
+    text-decoration: none;
+}
+
+
