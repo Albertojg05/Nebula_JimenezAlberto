@@ -9,7 +9,7 @@
 <html>
 
     <head>
-        <title>Términos y condiciones = Nebula</title>
+        <title>Términos y condiciones - Nebula</title>
         <meta charset="UTF-8">
         <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
     </head>

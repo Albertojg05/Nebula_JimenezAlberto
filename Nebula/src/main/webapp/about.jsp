@@ -9,7 +9,7 @@
 <html>
 
     <head>
-        <title>Nosotros = Nebula</title>
+        <title>Nosotros - Nebula</title>
         <meta charset="UTF-8">
         <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
     </head>
