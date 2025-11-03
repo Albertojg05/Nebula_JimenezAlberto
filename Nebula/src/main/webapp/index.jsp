@@ -15,9 +15,9 @@
     </head>
 
     <body>
-        
+
         <%@include file="/WEB-INF/fragments/navbar.jspf"%>
-        
+
         <header class="hero-portada">
             <img src="./imgs/cover.jpg" width="100%" height="500px" />
             <h1>Tú musica en la <span>nube</span> y en tu <span>espacio</span> </h1>
@@ -26,35 +26,38 @@
         <main>
             <section class="grid-articulos">
                 <article class="card-articulo">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiR6cg-N3_xor9O6govOCQXNU6POMX0GmIhg&s"
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.psKUZ4eUDbRryz45oHeKEAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"
                          width="250px" height="250px" />
-                    <h3>Tyler, the creator</h3>
-                    <p>El nuevo albúm de Tyler<i>"Muy bueno"</i>
-                        10/10 recomendado
+                    <h3>Coldplay</h3>
+                    <p>Banda británica reconocida por su estilo alternativo y letras emocionales. <i>Con éxitos como “Yellow” y “Viva la Vida”</i>, 
+                        Coldplay ha conquistado escenarios en todo el mundo con sus espectáculos llenos de color y energía.
                     </p>
                 </article>
 
                 <article class="card-articulo">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2D3QiQpdsEu_-JG8ueCyvwkYeczD6qW3OGQ&s"
+                    <img src="https://indiehoy.com/wp-content/uploads/2020/12/foo-fighters.jpg"
                          width="250px" height="250px" />
                     <div>
-                        <h3>Oasis</h3>
-                        <h4>Revela el setlist completo para sus proximos conciertos</h4>
+                        <h3>Foo Fighters</h3>
                     </div>
-                    <p>Los hermanos Liam y Noel Gallagher</p>
+                    <p>Foo Fighters es una de las bandas más influyentes del rock moderno. Su potencia en vivo y temas como
+                        <i>“Everlong” y “The Pretender”</i> los han convertido en leyendas del género.
+                    </p>
                 </article>
 
                 <article class="card-articulo">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpqElJTExGpQEGulNVxnhrwujF9uIAoPsyyw&s"
+                    <img src="https://tse1.explicit.bing.net/th/id/OIP.iE0nuM4DfO80NbjNde1UvgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
                          width="250px" height="250px" />
-                    <h3>No han sacado albúm</h3>
-                    <p>No saca albúm y ya me escuche todos</p>
+                    <h3>Taylor Swift</h3>
+                    <p>Cantautora estadounidense que ha logrado combinar el pop, el country y el folk en una carrera llena de éxitos. Con álbumes como
+                        <i>“1989” y “Folklore”</i>, Taylor ha redefinido la industria musical con su talento y conexión con los fans.
+                    </p>
                 </article>
             </section>
         </main>
 
         <%@include file="/WEB-INF/fragments/footer.jspf"%>
-        
+
     </body>
 
 </html>
