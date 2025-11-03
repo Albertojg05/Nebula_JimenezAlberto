@@ -1,3 +1,10 @@
+<%-- 
+    Document   : about
+    Created on : 3 nov 2025, 00:11:05
+    Author     : Alberto Jimenez
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -8,16 +15,9 @@
     </head>
 
     <body>
-        <nav>
-            <a href="./index.html">
-                <img src="./imgs/nebula-03.svg" height="80px">
-            </a>
-            <ul>
-                <li><a href="./about.html">Nosotros</a></li>
-                <li><a href="./comunidad.html">Comunidad</a></li>
-                <li><a href="./registro.html">Registro</a></li> 
-            </ul>
-        </nav>
+
+        <%@include file="/WEB-INF/fragments/navbar.jspf"%>
+
         <header class="hero-pagina">
             <h1>Acerca de nosotros</h1>
         </header>
@@ -75,19 +75,8 @@
 
         </main>
 
-        <footer>
-            <div>
-                Siguenos en nuestras redes.
-                <div>
-                    <a href="wwww.instagram.com" target="_blank">Instagram</a>
-                    <a href="wwww.facebook.com" target="_blank">Facebook</a>
-                    <a href="wwww.tiktok.xom" target="_blank">Tik tok</a>
-                </div>
-            </div>
+        <%@include file="/WEB-INF/fragments/footer.jspf"%>
 
-            <p>Copyright Nebula 2025</p>
-            <a href="./tyc.html" target="_blank">Términos y condiciones</a>
-        </footer>
     </body>
 
 </html>

@@ -1,0 +1,10 @@
+<nav>
+    <a href="./index.jsp">
+        <img src="./imgs/nebula-03.svg" height="80px">
+    </a>
+    <ul>
+        <li><a href="./about.jsp">Nosotros</a></li>
+        <li><a href="./comunidad.jsp">Comunidad</a></li>
+        <li><a href="./registro.jsp">Registro</a></li>
+    </ul>
+</nav>

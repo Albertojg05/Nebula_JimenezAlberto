@@ -1,3 +1,10 @@
+<%-- 
+    Document   : registro
+    Created on : 3 nov 2025, 00:11:41
+    Author     : Alberto Jimenez
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 
@@ -8,16 +15,9 @@
     </head>
 
     <body>
-        <nav>
-            <a href="./index.html">
-                <img src="./imgs/nebula-03.svg" height="80px">
-            </a>
-            <ul>
-                <li><a href="./about.html">Nosotros</a></li>
-                <li><a href="./comunidad.html">Comunidad</a></li>
-                <li><a href="./registro.html">Registro</a></li>
-            </ul>
-        </nav>
+
+        <%@include file="/WEB-INF/fragments/navbar.jspf"%>
+
         <header class="hero-pagina">
             <h1>Registro de usuarios</h1>
         </header>
@@ -79,7 +79,7 @@
                             <span>Selecciona tu tipo de cuenta para desbloquear características</span>
                         </div>
                         <div name="tyc">
-                            <label for="chk_tyc">Aceptar <a href="./tyc.html" target="_blank">Términos y condiciones</a>
+                            <label for="chk_tyc">Aceptar <a href="./tyc.jsp" target="_blank">Términos y condiciones</a>
                                 terminos y condiciones</label>
                             <input type="checkbox" id="chk_tyc" name="chk_tyc" value="Aceptado" required>
                             <span>Debes aceptar los terminos y condiciones para poder registrarte</span>
@@ -92,19 +92,9 @@
                 </form>
             </section>
         </main>
-        <footer>
-            <div>
-                Siguenos en nuestras redes.
-                <div>
-                    <a href="wwww.instagram.com" target="_blank">Instagram</a>
-                    <a href="wwww.facebook.com" target="_blank">Facebook</a>
-                    <a href="wwww.tiktok.xom" target="_blank">Tik tok</a>
-                </div>
-            </div>
-            <p>Copyright Nebula 2025</p>
-            <a href="./tyc.html" target="_blank">Términos y condiciones</a>
 
-        </footer>
+        <%@include file="/WEB-INF/fragments/footer.jspf"%>
+
     </body>
 
 </html>
